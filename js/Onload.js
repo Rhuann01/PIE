@@ -8,4 +8,5 @@ function imagenCard() {
   document.querySelector("#tercex .perfil").style.backgroundImage ="url('imgs/holocalsto.avif')";
   document.querySelector("#quartex .perfil").style.backgroundImage ="url('imgs/Brasil.jpg')";
   document.querySelector("#quintex .perfil").style.backgroundImage ="url('imgs/bombas.jpg')";
+  document.querySelector(".start .nav-bar").style.backgroundImage ="url('imgs/war.jpg')";
 }
