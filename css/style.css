@@ -11,6 +11,7 @@
   --cor-fundo: #efefef;
   --cor-text: #000000;
   --cor-fundo-end: #000000;
+  --cor-bordas: #171515;
 }
 
 html,
@@ -148,6 +149,7 @@ a {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-image: url(/imgs/images.jpg);
 }
 
 .select {
@@ -216,7 +218,158 @@ a {
 
 /*-----------------------------------------------------------------------------------------------------------------------------------*/
 
+/*================================  Molde <3 ========================================*/
+
+/*Aqui mesmo sendo para o slide 01, tem muitas coisas que serão reutilizadas, porque estou fazendo tipo um molde, e esqueci de separar esse molde e fiz direto aqui*/
+.mold {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  /*<---------- eu provalcelmente vou usar em mais areas do que aqui, deixei só um lembrete para não esquecer aonde está*/
+  background-color: firebrick;
+  height: 100vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 30vh;
+  background-color: yellow;
+}
+
+.TopLinhas {
+  width: 100%;
+  height: 80%;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border: 5px solid var(--cor-bordas);
+  border-left: none;
+  border-right: none;
+  font-size: 2.5rem;
+}
+
+.TopLinhas > h1 {
+  font-size: 4rem;
+}
+
+.TopLinhas > h3 {
+  font-size: 2.5rem;
+  margin-top: -15px;
+}
+
+.areaTextimgs {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+}
+
+.esquerda {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: saddlebrown;
+  height: 100%;
+  width: 40vw;
+  padding: 10px;
+  gap: 15px;
+}
+
+.imgOne {
+  width: 80%;
+  height: 50%;
+  background-image: url(/imgs/images.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imgMold {
+  width: 100%;
+  height: 90%;
+  background-image: url(/imgs/images.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.direita {
+  background-color: fuchsia;
+  height: 100%;
+  width: 40vw;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10%;
+}
+
+.areaText {
+  text-align: justify;
+  width: 80%;
+  font-size: 0.9rem;
+  letter-spacing: 0cap;
+}
+
+.cardMoldTreeText {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  font-size: 0.9rem;
+  letter-spacing: 0cap;
+}
+
+.moldtreecards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: aquamarine;
+  gap: 15px;
+}
+
+.cardMoldsTreeImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  height: 100%;
+  width: 20vw;
+  background-color: pink;
+}
+
+.cardMoldTreeText {
+  height: 100%;
+  width: 30vw;
+  background-color: rgb(122, 0, 20);
+}
+
+/*=================================================================================*/
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
 /*================================  One <3 ========================================*/
+
+/*Muitas das coisas que deveriam estar aqui estão no molde acima, que foi usado como base para a maioria das habas do site, a aqui está vazio porque tentei organizar */
 
 /*=================================================================================*/
 
