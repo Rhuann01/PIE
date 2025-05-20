@@ -328,6 +328,7 @@ a {
 }
 
 .cardMoldTreeText {
+  height: 100%;
   width: 80%;
   display: flex;
   align-items: center;
@@ -361,6 +362,7 @@ a {
   height: 100%;
   width: 30vw;
   background-color: rgb(122, 0, 20);
+  font-size: 1.3rem;
 }
 
 /*=================================================================================*/

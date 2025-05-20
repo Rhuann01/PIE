@@ -10,3 +10,4 @@ function imagenCard() {
   document.querySelector("#quintex .perfil").style.backgroundImage ="url('imgs/bombas.jpg')";
   document.querySelector(".start .nav-bar").style.backgroundImage ="url('imgs/war.jpg')";
 }
+
