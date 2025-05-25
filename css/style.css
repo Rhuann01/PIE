@@ -352,7 +352,7 @@ a {
 .cardMoldsTreeImg {
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
   height: 100%;
   width: 20vw;
   background-color: pink;
@@ -391,11 +391,39 @@ a {
 
 /*================================  for <3 ========================================*/
 
+#quart h1 {
+  font-size: 3rem;
+}
+
+#quart h3 {
+  font-size: 2rem;
+}
+
 /*=================================================================================*/
+
+#quint h1 {
+  font-size: 3rem;
+}
+
+#quint .cardMoldTreeText {
+  width: 56vw;
+}
 
 /*-----------------------------------------------------------------------------------------------------------------------------------*/
 
 /*================================  five <3 ========================================*/
+
+ul {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 5rem;
+}
+
+ul li {
+  font-weight: 300;
+  font-size: 1.1rem;
+}
 
 /*=================================================================================*/
 
@@ -403,10 +431,70 @@ a {
 
 /*================================  six <3 ========================================*/
 
+#sex h3 {
+  font-size: 1.7rem;
+}
+
+#sex .grande {
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+#sex .imgOne {
+  height: 24rem;
+  width: 25rem;
+}
+
 /*=================================================================================*/
 
 /*-----------------------------------------------------------------------------------------------------------------------------------*/
 
 /*================================  seven <3 ========================================*/
+
+#set h1 {
+  font-size: 3rem;
+}
+
+#set .cardMoldTreeText {
+  width: 20rem;
+  flex-direction: column;
+  gap: 20px;
+  text-align: start;
+}
+
+#set .moldtreecards {
+  gap: 10px;
+}
+
+#set .cardMoldsTreeImg {
+  width: 20rem;
+}
+
+#set p {
+  font-size: 1.4rem;
+  text-align: justify;
+  margin-top: 1.2rem;
+}
+
+#set .ajuste {
+  justify-content: start;
+}
+
+#set .ajuste p {
+  margin-top: 6dvh;
+}
+
+
+#set .pequeno {
+  text-align: start;
+  font-size: 1.2rem;
+  margin-top: 0rem;
+}
+
+#set span {
+  font-size: 1.2rem;
+  font-style: italic;
+}
 
 /*=================================================================================*/
