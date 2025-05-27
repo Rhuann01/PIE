@@ -233,6 +233,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* background-color: palevioletred;*/
 }
 
 .top {
@@ -242,6 +243,7 @@ a {
   flex-direction: column;
   width: 100%;
   height: 30vh;
+ /* background-color: yellow;*/
 }
 
 .TopLinhas {
@@ -256,6 +258,7 @@ a {
   border-left: none;
   border-right: none;
   font-size: 2.5rem;
+ /* background-color: rgb(255, 89, 89);*/
 }
 
 .TopLinhas > h1 {
@@ -282,6 +285,7 @@ a {
   width: 40vw;
   padding: 10px;
   gap: 15px;
+  /*background-color: blueviolet;*/
 }
 
 .imgOne {
@@ -311,6 +315,7 @@ a {
   justify-content: center;
   flex-direction: column;
   gap: 10%;
+ /* background-color: red;*/
 }
 
 .areaText {
@@ -368,6 +373,13 @@ a {
 /*-----------------------------------------------------------------------------------------------------------------------------------*/
 
 /*================================  two <3 ========================================*/
+
+#sec #HitlherImgSec {
+
+  background-position-y: 10%;
+  width: 70%;
+  height: 65%;
+}
 
 /*=================================================================================*/
 
@@ -475,7 +487,6 @@ ul li {
   margin-top: 7rem;
 }
 
-
 #set .pequeno {
   text-align: start;
   font-size: 1.2rem;
@@ -488,7 +499,6 @@ ul li {
 }
 
 /*=================================================================================*/
-
 
 #end {
   background-color: var(--cor-fundo-end);
