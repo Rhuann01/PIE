@@ -18,6 +18,9 @@ function imagenCard() {
   document.querySelector("#twoBrazilImgPri").style.backgroundImage ="url('imgs/Gertulho-vargas.png')";
   document.querySelector("#BombaPri").style.backgroundImage ="url('imgs/597647-43718-hiroshima-2520y-2520nagasaki.png')";
   document.querySelector("#Oppenheimer").style.backgroundImage ="url('imgs/Openheimer.jpg')";
+  document.querySelector("#SupremaciaPriImg").style.backgroundImage ="url('imgs/supremacia.png')";
+  document.querySelector("#esquilibrioImgPri").style.backgroundImage ="url('imgs/equilibrio.png')";
+  document.querySelector("#DerrotaPriImg").style.backgroundImage ="url('imgs/derrota.png')";
 
 }
 

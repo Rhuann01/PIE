@@ -72,6 +72,7 @@ a {
   background-size: cover;
   background-position: center;
   transition: 0.4s;
+  will-change: border-radius, top, width;
 }
 
 .card:hover .perfil {
@@ -94,6 +95,7 @@ a {
   height: 50px;
   overflow: hidden;
   transition: 0.4s;
+  will-change: top;
 }
 
 .card:hover .content {
@@ -243,7 +245,7 @@ a {
   flex-direction: column;
   width: 100%;
   height: 30vh;
- /* background-color: yellow;*/
+  /* background-color: yellow;*/
 }
 
 .TopLinhas {
@@ -258,7 +260,7 @@ a {
   border-left: none;
   border-right: none;
   font-size: 2.5rem;
- /* background-color: rgb(255, 89, 89);*/
+  /* background-color: rgb(255, 89, 89);*/
 }
 
 .TopLinhas > h1 {
@@ -315,7 +317,7 @@ a {
   justify-content: center;
   flex-direction: column;
   gap: 10%;
- /* background-color: red;*/
+  /* background-color: red;*/
 }
 
 .areaText {
@@ -375,7 +377,6 @@ a {
 /*================================  two <3 ========================================*/
 
 #sec #HitlherImgSec {
-
   background-position-y: 10%;
   width: 70%;
   height: 65%;
@@ -502,4 +503,153 @@ ul li {
 
 #end {
   background-color: var(--cor-fundo-end);
+}
+
+/* ================ Area extra ============= */
+
+.extra-area {
+  height: 70vh;
+}
+
+.linha-do-tempo {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reta {
+  position: relative;
+  width: 700px;
+  height: 5px;
+  background-color: black;
+  transform-origin: left;
+}
+
+.bolas {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reta-text {
+  position: absolute;
+  top: 30px;
+  width: max-content;
+  text-align: center;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.one {
+  left: 15%;
+}
+
+.two {
+  left: 50%;
+}
+
+.three {
+  left: 85%;
+}
+
+#carrocel {
+  display: flex;
+  width: max-content;
+  height: 100vh; /* <- ESSENCIAL para não crescer verticalmente */
+  overflow: hidden;
+}
+
+.horizontal {
+  width: 100vw;
+  height: 100vh;
+  flex-shrink: 0;
+}
+
+#extraTwo .esquerda {
+  gap: 10%;
+}
+
+#end {
+  /*font-family: 'Poppins', sans-serif;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #334155;
+}
+
+.tag-list {
+  width: 100vw;
+  font-family: "montserrat";
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.inner {
+  width: fit-content;
+  display: flex;
+  gap: 1rem;
+  animation: loop 60s linear infinite;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  gap: 0 0.2rem;
+  color: #e2e8f0;
+  background-color: #334155;
+  padding: 0.7rem 1rem;
+  border-radius: 0.4rem;
+  box-shadow: 0 0.1rem 0.2rem #00000033, 0 0.1rem 0.5rem #0000004d,
+    0 0.2rem 1.5rem #00000066;
+}
+
+.tag span {
+  font-size: 1.2rem;
+  color: #64748b;
+}
+
+.fade {
+  position: absolute;
+  background: linear-gradient(
+    90deg,
+    #1e293b,
+    transparent 30%,
+    transparent 70%,
+    #1e293b
+  );
+  inset: 0;
+  pointer-events: none;
+}
+
+.final-txt {
+  font-weight: 400;
+  position: absolute;
+  color: #ffffffc7;
+  font-family: "Poppins", sans-serif;
+  left: 50%;
+  top: 8%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  width: max-content;
+}
+
+@keyframes loop {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
